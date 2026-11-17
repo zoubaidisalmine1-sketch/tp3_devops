@@ -1,0 +1,6 @@
+services:
+  web:
+    image: salminezoubaidi/monapp:latest
+    ports:
+      - "8084:80"
+    restart: unless-stopped
