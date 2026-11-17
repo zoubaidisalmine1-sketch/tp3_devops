@@ -1,0 +1,8 @@
+lien GitHub 
+docker htb lien de l'image
+capture de pipeline
+docker compose capture 
+jenkis file et docker file
+stages github
+commentaire privé avec num de groupe 
+le travail dans un dossier
