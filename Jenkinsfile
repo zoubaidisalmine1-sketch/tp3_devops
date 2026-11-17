@@ -43,5 +43,16 @@ pipeline {
                 }
             }
         }
+
+        stage('Deploy') {
+            steps {
+                bat """
+                docker compose pull
+                docker compose up -d
+                docker ps
+                """
+            }
+        }
+
     }
 }
